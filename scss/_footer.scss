@@ -1,0 +1,15 @@
+footer {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: $tertiary-color;
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+  }
+  background: linear-gradient(24deg, $pink -80%, #f8f9fa 80%);
+  background: -webkit-linear-gradient(24deg, $pink -80%, #f8f9fa 80%);
+  background: -moz-linear-gradient(24deg, $pink -80%, #f8f9fa 80%);
+}

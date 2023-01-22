@@ -1,0 +1,100 @@
+nav {
+  font-weight: bolder;
+  background: linear-gradient(24deg, #c197a4 -80%, #f8f9fa 80%);
+  background: -moz-linear-gradient(24deg, #c197a4 -80%, #f8f9fa 80%);
+}
+
+.container {
+  font-weight: 500;
+  color: black;
+  background-color: #c197a4;
+}
+.container h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 30px;
+}
+.container img {
+  width: 100%;
+  cursor: pointer;
+}
+.container img:hover {
+  transform: translate(10px);
+  transition: transform 2s linear;
+}
+
+.carousel-caption {
+  background-color: #c197a4;
+}
+
+h5 {
+  color: black;
+  background-color: #c197a4;
+}
+
+p {
+  font-size: 15px;
+  color: black;
+  background-color: #c197a4;
+}
+
+footer {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f8f9fa;
+  background: linear-gradient(24deg, #c197a4 -80%, #f8f9fa 80%);
+  background: -moz-linear-gradient(24deg, #c197a4 -80%, #f8f9fa 80%);
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #c197a4;
+  font-family: "Cormorant Garamond", serif;
+}
+
+hr {
+  color: rgb(8, 8, 8);
+  opacity: unset;
+}
+
+h1 {
+  position: relative;
+  bottom: 65px;
+  margin: 0 10px;
+  font-weight: 700;
+}
+
+.saldi {
+  margin: 5px 10px;
+  height: 100px;
+  border: 1px solid #c197a4;
+  border-radius: 30px;
+}
+
+button {
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #c197a4;
+}
+button:hover {
+  -o-box-shadow: 5px 5px 34px 2px #f4e2d3;
+  box-shadow: 5px 5px 34px 2px #f4e2d3;
+}
+
+#middle {
+  background-color: #c197a4;
+  font-weight: bold;
+  font-size: 50px;
+  font-height: 80%;
+}/*# sourceMappingURL=style.css.map */

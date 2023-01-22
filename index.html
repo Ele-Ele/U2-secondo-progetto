@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My landing page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./scss/style.css" />
+  </head>
+  <body>
+    <!--INIZIO NAVBAR-->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid d-flex justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./img/logo-search-grid-1x-removebg-preview.png"
+            alt="Logo"
+            width="80"
+            height="74"
+            class="d-inline-block align-text-center"
+          />
+        </a>
+        <div>
+          <ul class="d-flex p-0 m-0 list-unstyled">
+            <li class="me-3">Home</li>
+            <li class="me-3">Offerte</li>
+            <li class="me-3"><i class="bi bi-facebook"></i></li>
+            <li class="me-3"><i class="bi bi-instagram"></i></li>
+            <li class="me-3"><i class="bi bi-twitter"></i></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--FINE NAVBAR-->
+    <div class="container d-flex justify-content-between">
+      <div>
+        <img
+          class="img-fluid"
+          src="https://img1.etsystatic.com/107/0/9241367/il_570xN.933008493_i8dr.jpg"
+        />
+        <h1>Jewelry Boutique</h1>
+      </div>
+      <div class="d-none d-sm-none d-md-block ps-3">
+        <p id="middle">
+          Scopri subito la nuova collezione! <br />
+          <button>VAI!</button>
+        </p>
+      </div>
+      <div class="d-none d-sm-none d-lg-block">
+        <h4 class="ps-3">Saldi</h4>
+        <img
+          class="saldi"
+          style="width: 50%"
+          src="./img/orecchini-donna-gioielli-brosway-affinity-bff74_289758_zoom-removebg-preview.png"
+        />
+        <img
+          class="saldi"
+          style="width: 50%"
+          src="./img/925-Silver-Metal-Spiral-Flower-Stud-Earrings-Western-Style-Female-Models-Jewelry-Inlay-White-Purple-CZ.jpg_640x640-removebg-preview.png"
+        />
+        <p class="fs-3">Tutto al 50%</p>
+        <button>Scopri</button>
+      </div>
+    </div>
+
+    <!--INIZIO CONTAINER-->
+    <div class="container">
+      <div class="row row-col-3 text-center">
+        <h3>Scopri i nostri gioielli</h3>
+        <hr />
+        <div class="col d-flex flex-column justify-content-between">
+          <img src="./img/Progetto senza titolo (3).png" />
+          <button>Scopri</button>
+        </div>
+        <div class="col d-flex flex-column justify-content-between">
+          <img src="./img/Progetto senza titolo (1).png" />
+          <button>Scopri</button>
+        </div>
+        <div class="col d-flex flex-column justify-content-between">
+          <img src="./img/Progetto senza titolo (2).png" />
+          <button>Scopri</button>
+        </div>
+      </div>
+      <!--INIZIO PARTNERSHIP-->
+      <div class="row row-col-3 p-5 text-center align-items-center">
+        <h3>Partnership</h3>
+        <hr />
+        <div class="col">
+          <img src="./img/brosway-logo-removebg-preview.png" />
+        </div>
+        <div class="col">
+          <img src="./img/swarovski-logo-removebg-preview.png" />
+        </div>
+        <div class="col">
+          <img
+            src="https://seeklogo.com/images/M/Morellato-logo-BA21E3D030-seeklogo.com.png"
+          />
+        </div>
+      </div>
+      <!--FINE PARTNERSHIP-->
+      <!--INIZIO CAROSELLO-->
+      <h3 class="text-center pb-5">Dicono di noi</h3>
+      <hr />
+      <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="img-fluid"
+                src="https://www.follettarosamakeup.com/wp-content/uploads/2017/11/angelic-square-collana-swarovski-02.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h5>ANNA:</h5>
+                <p>Lo consiglio! Ho acquistato una collana bellissima</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-fluid"
+                src="https://www.follettarosamakeup.com/wp-content/uploads/2017/11/angelic-square-collana-swarovski-02.png"
+              />
+              <div class="carousel-caption">
+                <h5>CHIARA:</h5>
+                <p>Gioielli fantastici e consegna veloce.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-fluid"
+                src="https://www.follettarosamakeup.com/wp-content/uploads/2017/11/angelic-square-collana-swarovski-02.png"
+              />
+              <div class="carousel-caption">
+                <h5>MARIO:</h5>
+                <p>Consegna veloce, prezzo ottimo.</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--FINE CAROSELLO-->
+    </div>
+    <!--FINE CONTAINER-->
+    <footer>
+      <p>&COPY;2023 Jewerly Boutique</p>
+      <a href="#">jeweleryboutique@gmail.com</a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

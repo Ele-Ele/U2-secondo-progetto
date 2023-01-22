@@ -1,0 +1,22 @@
+.container {
+  font: {
+    weight: 500;
+  }
+  color: black;
+  background-color: $pink;
+
+  h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  img {
+    width: 100%;
+    cursor: pointer;
+    &:hover {
+      transform: translate(10px);
+      transition: transform 2s linear;
+    }
+  }
+}
